@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<title>Code of P</title>
+
+<style>
+  p {
+    background: green;
+    padding: 20px;
+  }
+</style>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+<script>
+
+$(document).ready(function(){
+  
+  
+  $( "#toggleContent" ).click(function() {
+  
+    
+    $( "p" ).toggle( "fast" );
+    
+  });
+
+});
+</script>
+<button id="toggleContent">Toggle</button>
+<p>Watch this and be amazed!!!!</p>

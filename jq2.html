@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<title>My Example</title>
+
+<style>
+  p {
+    background: aqua;
+    padding: 20px;
+  }
+</style>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+<script>
+
+$(document).ready(function(){
+  
+  
+  $( "#toggleContent" ).click(function() {
+  
+    
+    $( "p" ).toggle( "slow" );
+    
+  });
+
+});
+</script>
+<button id="toggleContent">Be amazed at my skill !!!</button>
+<p>I am code master P !!!</p>
